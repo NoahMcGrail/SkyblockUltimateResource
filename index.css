@@ -7,11 +7,11 @@ body {
     overflow-x: hidden;
 }
 
-#profileViewer, #wikiViewer, #bazaarTracker, #timerViewer {
+#profileViewer, #wikiViewer, #bazaarTracker, #timerViewer, #ultimateGuide {
     display: inline;
 }
 
-#profileViewerCoverall, #wikiViewerCoverall, #bazaarTrackerCoverall, #timerViewerCoverall{
+#profileViewerCoverall, #wikiViewerCoverall, #bazaarTrackerCoverall, #timerViewerCoverall, #ultimateGuideCoverall{
     position: absolute;
     background-color: #f1f1f1;
     text-align: center;
@@ -24,7 +24,8 @@ body {
     height: 330px;
   }
 
-  #profileViewerCoverallHeader, #wikiViewerCoverallHeader, #bazaarTrackerCoverallHeader, #timerViewerCoverallHeader{
+  #profileViewerCoverallHeader, #wikiViewerCoverallHeader, #bazaarTrackerCoverallHeader, #timerViewerCoverallHeader,
+  #ultimateGuideCoverallHeader{
     float: left;
     padding: none;
     height: 4%;
@@ -45,6 +46,10 @@ body {
 
   #timerViewerCoverall {
     left: 66%;
+  }
+
+  #ultimateGuideCoverall {
+    top: 50%;
   }
 
   #embed {
