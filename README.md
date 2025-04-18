@@ -4,3 +4,4 @@
 2. Wiki Viewer showing fandom wiki page
 3. Bazaar Tracker including best items to flip
 4. Timer Viewer which shows the time before the next major Skyblock event
+5. Ultimate Walkthrough which includes a step-by-step guide for progression
