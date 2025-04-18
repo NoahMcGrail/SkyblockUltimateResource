@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ultimate Skyblock Resource</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+  </head>
+  <body>
+    <main>
+        <div class="topnav">
+        </div>
+        <div onmousedown="bringToFront('profileViewerCoverall')" id="profileViewerCoverall">
+            <div id="profileViewerCoverallHeader">Profile Viewer</div>
+            <button type="button" onclick="toggleElement('profileViewer')" id="toggleButton">X</button>
+            <div id="profileViewer">
+                <embed id="embed" src="https://stats.tem.cx/">
+            </div>
+        </div>
+        <div onmousedown="bringToFront('wikiViewerCoverall')" id="wikiViewerCoverall">
+            <div id="wikiViewerCoverallHeader">Wiki Viewer</div>
+            <button type="button" onclick="toggleElement('wikiViewer')" id="toggleButton">X</button>
+            <div id="wikiViewer">
+                <embed id="embed" src="https://hypixel-skyblock.fandom.com/wiki/Hypixel_SkyBlock_Wiki">
+            </div>
+        </div>
+        <div onmousedown="bringToFront('bazaarTrackerCoverall')" id="bazaarTrackerCoverall">
+            <div id="bazaarTrackerCoverallHeader">Bazaar Tracker</div>
+            <button type="button" onclick="toggleElement('bazaarTracker')" id="toggleButton">X</button>
+            <div id="bazaarTracker">
+                <embed id="embed" src="https://www.skyblock.bz/">
+            </div>
+        </div>
+        <div onmousedown="bringToFront('timerViewerCoverall')" id="timerViewerCoverall">
+            <div id="timerViewerCoverallHeader">Timer Viewer</div>
+            <button type="button" onclick="toggleElement('timerViewer')" id="toggleButton">X</button>
+            <div id="timerViewer">
+                <embed id="embed" src="https://hypixel.inventivetalent.org/">
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
