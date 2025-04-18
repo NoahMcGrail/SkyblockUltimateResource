@@ -11,6 +11,7 @@ dragElement(document.getElementById("profileViewerCoverall"));
 dragElement(document.getElementById("wikiViewerCoverall"));
 dragElement(document.getElementById("bazaarTrackerCoverall"));
 dragElement(document.getElementById("timerViewerCoverall"));
+dragElement(document.getElementById("ultimateGuideCoverall"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -64,17 +65,26 @@ function bringToFront(e){
         document.getElementById("profileViewerCoverall").style.zIndex = "0";
         document.getElementById("bazaarTrackerCoverall").style.zIndex = "0";
         document.getElementById("timerViewerCoverall").style.zIndex = "0";
+        document.getElementById("ultimateGuideCoverall").style.zIndex = "0";
     } else if(e == "profileViewerCoverall") {
         document.getElementById("wikiViewerCoverall").style.zIndex = "0";
         document.getElementById("bazaarTrackerCoverall").style.zIndex = "0";
         document.getElementById("timerViewerCoverall").style.zIndex = "0";
+        document.getElementById("ultimateGuideCoverall").style.zIndex = "0";
     } else if(e == "bazaarTrackerCoverall"){
         document.getElementById("profileViewerCoverall").style.zIndex = "0";
         document.getElementById("wikiViewerCoverall").style.zIndex = "0";
         document.getElementById("timerViewerCoverall").style.zIndex = "0";
+        document.getElementById("ultimateGuideCoverall").style.zIndex = "0";
     } else if(e == "timerViewerCoverall"){
         document.getElementById("profileViewerCoverall").style.zIndex = "0";
         document.getElementById("wikiViewerCoverall").style.zIndex = "0";
         document.getElementById("bazaarTrackerCoverall").style.zIndex = "0";
-    }
+        document.getElementById("ultimateGuideCoverall").style.zIndex = "0";
+    } else if(e == "ultimateGuideCoverall"){
+      document.getElementById("profileViewerCoverall").style.zIndex = "0";
+      document.getElementById("wikiViewerCoverall").style.zIndex = "0";
+      document.getElementById("bazaarTrackerCoverall").style.zIndex = "0";
+      document.getElementById("timerViewerCoverall").style.zIndex = "0";
+  }
 }
